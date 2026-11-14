@@ -1,137 +1,85 @@
 # TrueSizer
+### Experiência de recomendação de tamanhos para e-commerce de moda
 
-Sistema Inteligente de Recomendação de Tamanho para E-commerce
+O **TrueSizer** é um projeto de produto que explora como ajudar consumidores a escolher tamanhos de roupas com mais segurança em compras online, reduzindo a incerteza sobre caimento e ajuste.
 
-Projeto desenvolvido durante o Enterprise Challenge IBM + FIAP.
-
-## Sobre o projeto
-
-O TrueSizer é uma solução baseada em Inteligência Artificial que recomenda automaticamente o tamanho ideal de roupas para consumidores do e-commerce.
-
-O objetivo é reduzir devoluções causadas pela escolha incorreta do tamanho, melhorando a experiência do cliente e reduzindo custos operacionais para o varejo.
-
----
+> **Natureza do trabalho:** projeto acadêmico desenvolvido no Enterprise Challenge IBM + FIAP, seguido de prototipação e aprofundamento de UX e produto. O protótipo é experimental e não representa uma solução de medição corporal ou recomendação de tamanho validada para uso comercial.
 
 ## O problema
 
-As análises mostraram que:
+Comprar roupas online limita a possibilidade de experimentar uma peça e avaliar tecido, caimento e ajuste. A apresentação acadêmica do projeto analisou dados de devoluções fornecidos no desafio e identificou que:
+- pouco mais de 53% das devoluções analisadas estavam associadas a compras online;
+- o erro de tamanho aparecia como um motivo relevante de devolução;
+- o recorte por gênero e faixa etária ajudou a orientar a definição inicial do público-alvo.
 
-- mais de 53% das devoluções eram provenientes do e-commerce;
-- o principal motivo era erro de tamanho;
-- homens entre 25 e 45 anos concentravam a maior parte dessas devoluções.
+Esses números pertencem à análise do material acadêmico do desafio. Não devem ser interpretados como estatísticas universais do mercado.
 
-Esses insights direcionaram o desenvolvimento do MVP.
+## Proposta de produto
 
----
+O TrueSizer propõe uma experiência em que a pessoa pode:
+1. entender como funciona a medição;
+2. conceder acesso à câmera, quando optar pelo escaneamento;
+3. seguir orientações de posicionamento;
+4. visualizar medidas estimadas;
+5. receber uma recomendação de tamanho;
+6. avaliar a experiência.
 
-## Solução
+A experiência também considera a possibilidade de inserir medidas manualmente, como alternativa ao uso da câmera.
 
-O usuário pode:
+## Meu papel e atribuição
 
-✔ inserir medidas manualmente
+O projeto acadêmico original foi desenvolvido por uma equipe de quatro integrantes no Enterprise Challenge IBM + FIAP.
 
-ou
+- **Concepção de UX:** realizada pela equipe de UX.
+- **Minha contribuição individual:** UX e produto, com participação na definição da experiência, das funcionalidades e dos fluxos.
+- **Prototipação:** desenvolvimento orientado por prompts no Replit.
 
-✔ realizar escaneamento corporal
+Este repositório apresenta o projeto com atribuição coletiva e individual diferenciadas. Não reivindico autoria individual sobre todo o projeto acadêmico.
 
-Os dados são processados por modelos de Machine Learning que recomendam o tamanho mais adequado para cada produto.
+## Protótipo e demonstração
 
-Além da recomendação ao consumidor, a solução disponibiliza dashboards para acompanhamento dos indicadores do negócio.
+- [Vídeo de apresentação do TrueSizer](https://www.youtube.com/watch?v=W55JiTZ_fis)
 
----
+O vídeo e as telas demonstram a proposta e os fluxos do protótipo. A demonstração não comprova precisão técnica das medidas nem eficácia das recomendações.
 
-## Arquitetura
+## O que foi explorado
 
-Usuário
+- jornada de medição por câmera e alternativa manual;
+- instruções e feedback durante o escaneamento;
+- apresentação de medidas e recomendações;
+- experiência responsiva para navegação mobile;
+- oportunidade de conectar a experiência do consumidor a indicadores de devolução e satisfação do varejista.
 
-↓
+## Limitações conhecidas
 
-React / Flutter
+- As medidas exibidas pelo protótipo não foram validadas contra instrumentos de referência.
+- A recomendação de tamanho não foi validada com tabelas reais e abrangentes de marcas e modelagens.
+- Não há evidência experimental suficiente para afirmar redução de devoluções ou aumento de NPS.
+- Imagens e medidas corporais são dados pessoais sensíveis em potencial e exigem tratamento cuidadoso, transparência e controles de privacidade.
+- O protótipo deve ser entendido como experimento de produto, não como serviço pronto para produção.
 
-↓
+## Documentação
 
-Node.js
+- [Case de produto e UX](docs/CASE_DE_PRODUTO_UX.md)
+- [Auditoria técnica e próximos passos](docs/AUDITORIA_TECNICA.md)
+- [Arquitetura: proposta acadêmica x protótipo](docs/ARQUITETURA.md)
+- [Segurança e privacidade](docs/SEGURANCA_E_PRIVACIDADE.md)
 
-↓
+## Status deste repositório
 
-MongoDB + SQL Server
+A documentação está sendo organizada para apresentação em portfólio. A publicação do código-fonte do protótipo depende da conferência da estrutura, remoção de credenciais e dados sensíveis, revisão das dependências e testes de execução. Não considere este repositório uma distribuição executável do produto até que essas etapas sejam concluídas.
 
-↓
+## Contexto acadêmico
 
-Python
+**Enterprise Challenge IBM + FIAP**  
+Turma 1TSCOR — projeto TrueSizer.
 
-↓
+Integrantes do trabalho acadêmico:
+- Bruna Mayara Mendes Serejo
+- Cesar Augusto da Silva Pereira
+- Gabriel Francisco de Paulo
+- Nicolas Kenji Gondo Yorinobu
 
-IBM Watson Studio
+## Objetivo deste case
 
-↓
-
-Watson Machine Learning
-
-↓
-
-Power BI
-
----
-
-## Tecnologias
-
-- Python
-- SQL
-- Power BI
-- React
-- Node.js
-- MongoDB
-- Docker
-- IBM Watson Studio
-- IBM Watson Machine Learning
-- GitHub
-- Figma
-
----
-
-## Funcionalidades
-
-- Recomendação personalizada de tamanho
-- Escaneamento corporal
-- Cadastro manual de medidas
-- Dashboard analítico
-- Pesquisa de satisfação
-- Relatórios gerenciais
-
----
-
-## Indicadores monitorados
-
-- Taxa de devolução
-- NPS
-- Economia logística
-- Precisão das recomendações
-- Produtos com maior índice de devolução
-
----
-
-## Equipe
-
-Projeto desenvolvido durante o Enterprise Challenge IBM + FIAP.
-
----
-
-## Aprendizados
-
-Durante o desenvolvimento foram aplicados conceitos de:
-
-- Product Discovery
-- Business Analysis
-- Data Analytics
-- Machine Learning
-- UX
-- Data Visualization
-- Arquitetura de Software
-- Business Intelligence
-
----
-
-## Licença
-
-Projeto acadêmico desenvolvido para fins educacionais.
+Demonstrar raciocínio de produto, identificação de problema, tradução de evidências em uma proposta, desenho de experiência e uso de ferramentas de IA no processo de prototipação — com clareza sobre o que foi proposto, prototipado e efetivamente validado.
