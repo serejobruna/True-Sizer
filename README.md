@@ -43,6 +43,13 @@ Este repositório apresenta o projeto com atribuição coletiva e individual dif
 
 O vídeo e as telas demonstram a proposta e os fluxos do protótipo. A demonstração não comprova precisão técnica das medidas nem eficácia das recomendações.
 
+## 🚀 Experimente o TrueSizer
+
+Explore nosso protótipo interativo e navegue
+pela experiência do produto.
+
+[**Acessar protótipo interativo →**](https://serejobruna.github.io/True-Sizer/prototipo/)
+
 ## O que foi explorado
 
 - jornada de medição por câmera e alternativa manual;
