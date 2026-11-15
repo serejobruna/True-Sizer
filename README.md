@@ -1,9 +1,13 @@
 # TrueSizer
-### Experiência de recomendação de tamanhos para e-commerce de moda
+### UX & Product Design | Recomendação de tamanhos para e-commerce de moda
 
-O **TrueSizer** é um projeto de produto que explora como ajudar consumidores a escolher tamanhos de roupas com mais segurança em compras online, reduzindo a incerteza sobre caimento e ajuste.
+**Um experimento de produto para tornar a escolha de tamanhos de roupas online mais clara e confiante.**
 
-> **Natureza do trabalho:** projeto acadêmico desenvolvido no Enterprise Challenge IBM + FIAP, seguido de prototipação e aprofundamento de UX e produto. O protótipo é experimental e não representa uma solução de medição corporal ou recomendação de tamanho validada para uso comercial.
+[**▶ Explorar protótipo interativo**](https://serejobruna.github.io/True-Sizer/prototipo/) · [**Ler case de UX e produto**](docs/CASE_DE_PRODUTO_UX.md) · [**Assistir à apresentação**](https://www.youtube.com/watch?v=W55JiTZ_fis)
+
+**Visão geral:** projeto acadêmico do Enterprise Challenge IBM + FIAP, com exploração de experiência do usuário, definição de funcionalidades e fluxos, e prototipação com apoio de ferramentas de IA. O protótipo é experimental: as medidas corporais e recomendações de tamanho não foram validadas para uso comercial.
+
+**Foco do case:** descoberta do problema · jornada do usuário · fluxos de medição · prototipação · limites e hipóteses a testar
 
 ## O problema
 
@@ -38,17 +42,11 @@ Este repositório apresenta o projeto com atribuição coletiva e individual dif
 
 ## Protótipo e demonstração
 
+- [Abrir protótipo interativo no navegador](https://serejobruna.github.io/True-Sizer/prototipo/)
 - [Vídeo de apresentação do TrueSizer](https://www.youtube.com/watch?v=W55JiTZ_fis)
 - [Protótipo navegável do TrueSizer](https://www.figma.com/proto/FcVAxuGq3e7gRFWq3evkH2/Untitled?node-id=2-2&p=f&t=3blM9qwJrIvMjIi4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1)
 
 O vídeo e as telas demonstram a proposta e os fluxos do protótipo. A demonstração não comprova precisão técnica das medidas nem eficácia das recomendações.
-
-## 🚀 Experimente o TrueSizer
-
-Explore nosso protótipo interativo e navegue
-pela experiência do produto.
-
-[**Acessar protótipo interativo →**](https://serejobruna.github.io/True-Sizer/prototipo/)
 
 ## O que foi explorado
 
