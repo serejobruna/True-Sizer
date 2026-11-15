@@ -42,6 +42,8 @@ Este repositório apresenta o projeto com atribuição coletiva e individual dif
 
 O vídeo e as telas demonstram a proposta e os fluxos do protótipo. A demonstração não comprova precisão técnica das medidas nem eficácia das recomendações.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/FcVAxuGq3e7gRFWq3evkH2/Untitled?node-id=2-2&p=f&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+
 ## O que foi explorado
 
 - jornada de medição por câmera e alternativa manual;
