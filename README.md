@@ -3,11 +3,21 @@
 
 **Um experimento de produto para tornar a escolha de tamanhos de roupas online mais clara e confiante.**
 
-[**▶ Explorar protótipo interativo**](https://serejobruna.github.io/True-Sizer/prototipo/) · [**Ler case de UX e produto**](docs/CASE_DE_PRODUTO_UX.md) · [**Assistir à apresentação**](https://www.youtube.com/watch?v=W55JiTZ_fis)
+[**🚀 Experimentar TrueSizer V2**](https://truesizerv2.replit.app/) · [**Ver protótipo original**](https://serejobruna.github.io/True-Sizer/prototipo/) · [**Ler case de UX e produto**](docs/CASE_DE_PRODUTO_UX.md)
 
 **Visão geral:** projeto acadêmico do Enterprise Challenge IBM + FIAP, com exploração de experiência do usuário, definição de funcionalidades e fluxos, e prototipação com apoio de ferramentas de IA. O protótipo é experimental: as medidas corporais e recomendações de tamanho não foram validadas para uso comercial.
 
 **Foco do case:** descoberta do problema · jornada do usuário · fluxos de medição · prototipação · limites e hipóteses a testar
+
+## TrueSizer V2 — evolução com IA assistindo o desenvolvimento
+
+A **V2** é uma evolução mais refinada e experimental do TrueSizer, desenvolvida posteriormente com **Replit e desenvolvimento assistido por IA**, a partir do protótipo de UX/UI no Figma. O trabalho explora a transformação de requisitos de produto em uma aplicação mobile-first, com experiência também em desktop, jornada de medição corporal, recomendação de tamanhos e fluxos de consentimento e conta.
+
+**[Acessar o aplicativo TrueSizer V2](https://truesizerv2.replit.app/)** · [**Conhecer a documentação da evolução V2**](https://github.com/serejobruna/True-Sizer/blob/feature/truesizer-v2-replit/docs/TRUESIZER_V2_REPLIT.md)
+
+**Meu papel na V2:** condução da evolução de produto, definição de requisitos e experiência, orientação da implementação por prompts e avaliação crítica da solução gerada por IA. A versão acadêmica original mantém os créditos coletivos registrados abaixo.
+
+**Status:** protótipo funcional experimental; a precisão das medidas, a efetividade das recomendações e os fluxos de privacidade/autenticação ainda precisam de validação ponta a ponta. O uso de IA no desenvolvimento não significa que a funcionalidade de medição utilize IA generativa.
 
 ## O problema
 
