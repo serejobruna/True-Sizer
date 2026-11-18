@@ -53,8 +53,7 @@ Este repositório apresenta o projeto com atribuição coletiva e individual dif
 ## Protótipo e demonstração
 
 - [Abrir protótipo interativo no navegador](https://serejobruna.github.io/True-Sizer/prototipo/)
-- [Vídeo de apresentação do TrueSizer](https://www.youtube.com/watch?v=W55JiTZ_fis)
-- [Protótipo navegável do TrueSizer](https://www.figma.com/proto/FcVAxuGq3e7gRFWq3evkH2/Untitled?node-id=2-2&p=f&t=3blM9qwJrIvMjIi4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1)
+- [Vídeo de apresentação do TrueSizer V1](https://www.youtube.com/watch?v=W55JiTZ_fis)
 
 O vídeo e as telas demonstram a proposta e os fluxos do protótipo. A demonstração não comprova precisão técnica das medidas nem eficácia das recomendações.
 
@@ -77,7 +76,6 @@ O vídeo e as telas demonstram a proposta e os fluxos do protótipo. A demonstra
 ## Documentação
 
 - [Case de produto e UX](docs/CASE_DE_PRODUTO_UX.md)
-- [Auditoria técnica e próximos passos](docs/AUDITORIA_TECNICA.md)
 - [Arquitetura: proposta acadêmica x protótipo](docs/ARQUITETURA.md)
 - [Segurança e privacidade](docs/SEGURANCA_E_PRIVACIDADE.md)
 
